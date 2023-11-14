@@ -1,6 +1,12 @@
 {
   "tasks": {
     "dev": "deno run -A --watch main.ts",
-    "serve": "deno run -A --watch server.ts"
+    "serve": "deno run -A --watch server.ts",
+    "wss": "deno run -A --watch wss.ts"
+  },
+  "scopes": {
+    "https://raw.githubusercontent.com/Zhomart/dex/": {
+      "https://deno.land/std/": "https://deno.land/std@0.177.0/"
+    }
   }
 }
